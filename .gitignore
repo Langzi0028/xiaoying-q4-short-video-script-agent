@@ -1,0 +1,13 @@
+.env
+.idea/
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+data/final-verification/
+data/.test-runtime/
+data/invalid.stdout
+data/invalid.stderr
