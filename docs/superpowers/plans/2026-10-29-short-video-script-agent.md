@@ -1,5 +1,7 @@
 # 短视频脚本 Agent Implementation Plan
 
+> **Historical planning record:** This document records the pre-implementation plan and may list superseded files, framework choices, and unchecked task steps. It is not delivery evidence. Review `docs/02-solution.md`, `docs/03-evaluation.md`, the source code, tests, and `examples/` for the implemented system and verified results.
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** 构建一个可运行、可审计的短视频脚本 Agent，它基于合成素材和规则生成短脚本，并通过工具结果动态决定压缩、补充信息或结束。
@@ -402,4 +404,3 @@ git rev-parse HEAD
 
 Run: `git remote -v; git push <remote> master`  
 Expected: 只有用户配置且有推送权限时才执行；记录仓库 URL 和最终 SHA，若无远程则明确说明未能提供 GitHub URL。
-
